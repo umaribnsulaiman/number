@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h2{
+text-align: center;
+}
+div.main{
+    margin: 0px auto;
+    max-width: 350px;
+    text-align: center;
+    box-shadow: -4px 8px 8px 8px rgba(0, 0, 0,0.2);
+    font-size: 0px;
+}
+div.main:hover{
+    margin: 0px auto;
+    max-width: 350px;
+    text-align: center;
+    box-shadow: -8px 16px 25px 4px rgba(0, 0, 0,0.6); 
+}
+div.display input {
+    width: 273px;
+    height: 100px;
+    font-size: 25px;
+    text-align: right;
+    letter-spacing: 2px;
+    outline: 2px solid rgb(50, 124, 184);
+    outline-offset: -2px;
+    padding: 0px 4px 0px 0;
+    margin-top: 10px;
+   
+}
+.btn{
+    padding-bottom: 11px;
+ padding-top: 1px;
+}
+.btn input{
+height: 70px;
+width: 70px;
+font-size: 20px;
+background-color: slateblue;
+color: white;
+outline: none;
+}
+.btn input.black{
+    background-color: rgb(61, 59, 59);
+    
+}
+.btn input.tomato{
+    background-color:tomato;
+    
+}
+.btn input:hover{
+    background-color: rgba(105, 97, 97, 0.438);
+    color: rgb(10, 10, 10);
+}
